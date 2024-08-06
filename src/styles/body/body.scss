@@ -1,0 +1,18 @@
+body {
+  background: $secondColor;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $secondTextColor;
+  opacity: 0.9;
+  border-radius: 9em;
+}
